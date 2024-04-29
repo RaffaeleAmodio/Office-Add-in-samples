@@ -167,7 +167,7 @@ function get_command_id() {
     "logoFileName": The filename of the logo image
  */
 function get_template_A_info(user_info) {
-  const logoFileName = "CESI_Logo.jpg";
+  const logoFileName = "Cesi_Logo.jpg";
   let str = "";
   if (is_valid_data(user_info.greeting)) {
     str += user_info.greeting + "<br/>";
@@ -219,7 +219,7 @@ function get_template_B_info(user_info) {
   str += "<tr>";
   // Reference the logo using a URI to the web server <img src='https://...
   str +=
-    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/CESI_Logo.jpg' alt='Logo' width='24' height='24'/></td>";
+    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/Cesi_Logo.jpg' alt='Logo' width='24' height='24'/></td>";
   str += "<td style='padding-left: 5px;'>";
   str += "<strong>" + user_info.name + "</strong>";
   str += is_valid_data(user_info.pronoun) ? "&nbsp;" + user_info.pronoun : "";
