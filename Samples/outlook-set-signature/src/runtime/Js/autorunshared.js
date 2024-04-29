@@ -179,7 +179,7 @@ function get_template_A_info(user_info) {
   str +=
     "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='cid:" +
     logoFileName +
-    "' alt='MS Logo' width='300px' height='200px' /></td>";
+    "' alt='MS Logo' width='24px' height='24px' /></td>";
   str += "<td style='padding-left: 5px;'>";
   str += "<strong>" + user_info.name + "</strong>";
   str += is_valid_data(user_info.pronoun) ? "&nbsp;" + user_info.pronoun : "";
@@ -219,7 +219,7 @@ function get_template_B_info(user_info) {
   str += "<tr>";
   // Reference the logo using a URI to the web server <img src='https://...
   str +=
-    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/Kema_Logo.jpg' alt='Logo' width='300px' height='200px'/></td>";
+    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/sample-logo.png' alt='Logo' width='24px' height='24px'/></td>";
   str += "<td style='padding-left: 5px;'>";
   str += "<strong>" + user_info.name + "</strong>";
   str += is_valid_data(user_info.pronoun) ? "&nbsp;" + user_info.pronoun : "";
