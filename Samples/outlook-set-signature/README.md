@@ -255,7 +255,7 @@ Template A shows how to insert an image by embedding it in the signature. This w
 str +=
     "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='cid:" +
     logoFileName +
-    "' alt='MS Logo' width='162' height='70' /></td>";
+    "' alt='MS Logo' width='174' height='50' /></td>";
 ```
 
 In the **addTemplateSignature** function, if template A is used, it will attach the image by calling the **addFileAttachmentFromBase64Async()** API. Then it calls the **setSignatureAsync()** API.
@@ -266,7 +266,7 @@ Template B shows how to reference an image from the HTML. It uses the `<img>` ta
 
 ```xml
  str +=
-    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/Ismes_Logo.jpg' alt='Logo' /></td>";
+    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/Kema_Logo.jpg' alt='Logo' /></td>";
 ```
 
 This is a simpler approach as you don't need to attach the image. Although your web server will need to provide the image anytime Outlook needs it for a signature.
