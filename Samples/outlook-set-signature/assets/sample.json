@@ -26,7 +26,7 @@
             {
                 "type": "image",
                 "order": 100,
-                "url": "https://officedev.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/outlook-set-signature-overview.png",
+                "url": "https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/outlook-set-signature-overview.png",
                 "alt": "Screen shot of sample displaying an information bar prompting the user to set up signatures, and sample signature inserted into the email."
             }
         ],
