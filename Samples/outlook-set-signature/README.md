@@ -266,7 +266,7 @@ Template B shows how to reference an image from the HTML. It uses the `<img>` ta
 
 ```xml
  str +=
-    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/Kema_Logo_174_50.png' alt='Logo' /></td>";
+    "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='https://raffaeleamodio.github.io/Office-Add-in-samples/Samples/outlook-set-signature/assets/sample-logo.png' alt='Logo' /></td>";
 ```
 
 This is a simpler approach as you don't need to attach the image. Although your web server will need to provide the image anytime Outlook needs it for a signature.
