@@ -255,7 +255,7 @@ Template A shows how to insert an image by embedding it in the signature. This w
 str +=
     "<td style='border-right: 1px solid #000000; padding-right: 5px;'><img src='cid:" +
     logoFileName +
-    "' alt='MS Logo' width='24' height='24' /></td>";
+    "' alt='MS Logo' width='220' height='105' /></td>";
 ```
 
 In the **addTemplateSignature** function, if template A is used, it will attach the image by calling the **addFileAttachmentFromBase64Async()** API. Then it calls the **setSignatureAsync()** API.
